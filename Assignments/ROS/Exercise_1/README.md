@@ -92,7 +92,7 @@ Let's launch the **smb_gazebo** using *roslaunch* command.
 roslaunch smb_gazebo smb_gazebo.launch
 ```
 Here, we see the simulator running
-![SMB Gazebo Simulation](/assets/images/simulation.png)
+![SMB Gazebo Simulation](https://github.com/Gill-Singh-A/Induction_Y22/blob/Gill/assets/images/simulation.png)
 Let's see the nodes using the *rosnode list* command.
 ```bash
 [kaptaan@PEACOCK]-[~/Workspaces/smb_ws]$ rosnode list
@@ -342,7 +342,7 @@ For example, if the *exercise_1.launch* is in the same directory, then:
 roslaunch exercise_1.launch
 ```
 After running this launch file, we should see something like this.
-![SMB Gazebo Simulation](/assets/images/simulation_with_world.png)
+![SMB Gazebo Simulation](https://github.com/Gill-Singh-A/Induction_Y22/blob/Gill/assets/images/simulation_with_world.png)
 # setup.bash
 To do the setup for all this, just run the **setup.bash** file
 ```bash
