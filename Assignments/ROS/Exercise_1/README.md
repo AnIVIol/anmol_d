@@ -17,7 +17,7 @@ Making the following folders in *home* directory:
 cd ~
 mkdir Git Workspace
 ```
-Let's make the *smb_workspace* and *teleop_twist_keyboard* folder in **Workspace** as **smb_ws** with **src** folder
+Let's make the *smb_workspace* and *teleop_twist_keyboard_workspace* folder in **Workspaces** as **smb_ws** and **teleop_twist_keyboard** with **src** folder
 ```bash
 cd Workspace
 mkdir -p smb_ws/src/
