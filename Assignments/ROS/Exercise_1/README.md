@@ -7,7 +7,7 @@ Setting up the Following ROS Noetic Packages using apt command that are required
 * pointcloud to laserscan
 * twist mux
 ```bash
-sudo apt install ros-noetic-hector-gazebo-plugins ros-noetic-velodyne ros-noetic-velodyne-description ros-noetic-velodyne-gazebo-plugins ros-noetic-pointcloud-to-laserscan ros-noetic-twist-mux
+sudo apt install -y ros-noetic-hector-gazebo-plugins ros-noetic-velodyne ros-noetic-velodyne-description ros-noetic-velodyne-gazebo-plugins ros-noetic-pointcloud-to-laserscan ros-noetic-twist-mux
 ```
 ### Creating Folders
 Making the following folders in *home* directory:

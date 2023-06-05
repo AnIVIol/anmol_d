@@ -1,4 +1,4 @@
-sudo apt install ros-noetic-hector-gazebo-plugins ros-noetic-velodyne ros-noetic-velodyne-description ros-noetic-velodyne-gazebo-plugins ros-noetic-pointcloud-to-laserscan ros-noetic-twist-mux
+sudo apt install -y ros-noetic-hector-gazebo-plugins ros-noetic-velodyne ros-noetic-velodyne-description ros-noetic-velodyne-gazebo-plugins ros-noetic-pointcloud-to-laserscan ros-noetic-twist-mux
 cd ~
 mkdir Git Workspace
 cd Workspace
