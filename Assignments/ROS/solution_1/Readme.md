@@ -74,7 +74,7 @@ As given in the official documentation, the following command loads RViz, Gazebo
 ```bash
  roslaunch smb_gazebo sim.launch launch_gazebo_gui:=true world:=WaA
 ```
-[Basic Simulation](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim.launch.png)
+[Basic Simulation](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim.launch.png?raw=true)
 
 
 ##Listing the nodes 
@@ -250,4 +250,4 @@ I chose: ***everything.world***
 </launch>
 
 ```
-[Changed World](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim2.launch.png)
+[Changed World](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim2.launch.png?raw=true)
