@@ -69,7 +69,7 @@ catkin build
 echo "source ~/ARIITK/teleop_twist_keyboard/source/devel/setup.bash" >> ~/.bashrc
 ```
 ---
-# Running a SImulation with given world
+# Running a Simulation with given world
 As given in the official documentation, the following command loads RViz, Gazebo in a predefined world that came with the package.
 ```bash
  roslaunch smb_gazebo sim.launch launch_gazebo_gui:=true world:=WaA
