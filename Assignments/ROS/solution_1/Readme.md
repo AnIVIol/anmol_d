@@ -74,10 +74,10 @@ As given in the official documentation, the following command loads RViz, Gazebo
 ```bash
  roslaunch smb_gazebo sim.launch launch_gazebo_gui:=true world:=WaA
 ```
-[Basic Simulation](https://raw.githubusercontent.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim.launch.png?raw=true)
+![Basic Simulation](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim.launch.png?raw=true)
 
 
-##Listing the nodes 
+## Listing the nodes 
 ```bash
 anmoldeep@anmoldeep-ASUS-TUF-Gaming-F15-FX507ZM-FX577ZM:~/ARIITK/smb_ws$ rosnode list
 /control/controller_spawner
@@ -94,7 +94,7 @@ anmoldeep@anmoldeep-ASUS-TUF-Gaming-F15-FX507ZM-FX577ZM:~/ARIITK/smb_ws$ rosnode
 
 
 ```
-##Listing the topics
+## Listing the topics
 ```bash
 anmoldeep@anmoldeep-ASUS-TUF-Gaming-F15-FX507ZM-FX577ZM:~/ARIITK/smb_ws$ rostopic list
 /base_odom
@@ -173,7 +173,7 @@ anmoldeep@anmoldeep-ASUS-TUF-Gaming-F15-FX507ZM-FX577ZM:~/ARIITK/smb_ws$ rostopi
 /versavis/cam0/slow/image_raw/theora/parameter_updates
 ```
 
-##Checking rate of publishing to base_odom
+## Checking rate of publishing to base_odom
 ```bash
 average rate: 60.325
 	min: 0.000s max: 0.049s std dev: 0.02009s window: 53
@@ -189,7 +189,7 @@ average rate: 57.086
 	min: 0.000s max: 0.049s std dev: 0.02029s window: 277
 
 ```
-##Publishing to /opc/cmd_vel
+## Publishing to /opc/cmd_vel
 Due to my renowned skills of complicating things, using the core package files has resulted in /cmd_vel not starting as a topic when simulating, instead /opc/cmd_vel is to be used to publish velocity commands
 
 ```bash
@@ -250,4 +250,4 @@ I chose: ***everything.world***
 </launch>
 
 ```
-[Changed World](https://raw.githubusercontent.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim2.launch.png?raw=true)
+![Changed World](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim2.launch.png?raw=true)
