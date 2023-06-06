@@ -74,7 +74,7 @@ As given in the official documentation, the following command loads RViz, Gazebo
 ```bash
  roslaunch smb_gazebo sim.launch launch_gazebo_gui:=true world:=WaA
 ```
-# INSERT IMAGE HERE
+[Basic Simulation](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim.launch.png)
 
 
 ##Listing the nodes 
@@ -204,8 +204,6 @@ angular:
 ```
 This starts publishing at 10 Hz to /opc/cmd_vel and robot starts rotating like a shwarma rotisserie
 
-# INSERT IMAGE HERE
-
 ---
 # Launch File setup 
 
@@ -252,4 +250,4 @@ I chose: ***everything.world***
 </launch>
 
 ```
-
+[Changed World](https://github.com/AnIVIol/anmol_d/blob/b3d41a07153e94d26dc716b15945bf5f72dc8d56/Assignments/ROS/solution_1/Images/sim2.launch.png)
